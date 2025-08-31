@@ -490,9 +490,6 @@ body {
 /* =============================
    About Sections
    ============================= */
-/* =============================
-   About Sections
-   ============================= */
 .py-6 { padding-top: 3.5rem; padding-bottom: 3.5rem; }
 .mb-6 { margin-bottom: 2.5rem; }
 
@@ -575,7 +572,7 @@ body {
   .speech-card::before { display: none; }
   .about-title { font-size: 1.8rem; }
   .about-lead { font-size: 0.9rem; }
-  .about-square { width: calc(33.33% - 0.5rem); height: 100px; }
+  .about-square { width: 100px; height: 100px; }
   .speech-card .speech-inner { padding: 16px; }
   .speech-card .speech-media img { height: 200px; }
   .btn-discover { padding: 6px 12px; font-size: 0.85rem; }
@@ -584,7 +581,7 @@ body {
   .about-section-light p { font-size: 0.9rem; }
 }
 @media (max-width: 575px) {
-  .about-square { width: calc(33.33% - 0.5rem); height: 80px; }
+  .about-square { width: 100%; height: 100px; margin-bottom: 1rem; }
   .about-title { font-size: 1.6rem; }
   .about-lead { font-size: 0.85rem; }
   .speech-card .speech-inner { padding: 12px; }
